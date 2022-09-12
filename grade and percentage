@@ -21,8 +21,10 @@ int main()
         cout<<"B";
     else if(avg>=60 && avg<69)
         cout<<"C";
-    else if(avg>=50 && avg<59)
+    else if(avg>=55 && avg<59)
         cout<<"D";
+    else if(avg>=50 && avg<54)
+        cout<<"E";
     else
         cout<<"FAIL!!...";
     cout<<endl;
